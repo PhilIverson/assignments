@@ -1,45 +1,25 @@
-!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-    <meta charset=""
-</head>
-
-
-
-
-
-
-
-
+<!DOCTYPE html>
+<html>
 <body>
-    <div>
-        <h1>Tittle</h1>
-    </div> 
-    <div id="blog-section">
-        </div>
-            <h3>Blog Post</h3>
-            <h5>Author</h5>
-            <p></p>
 
-                
-        
+<p id="helloClass"></p>
 
-
-
-
-
-
-
-
-
+<script>
+var myObject = {
+    greeting:"Hello, Class",
+    howAreYou: function() {
+        return this.greeting;
+    }
+}
+x = myObject.howAreYou();
+document.getElementById("helloClass").innerHTML = x; 
+</script>
 
 </body>
+</html>
 
+                
 
-
-    <div>id="blog-section"
 
 
 

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="hello"></p>
+
+<script>
+var myObject = {
+    greeting:"Hello, Class",
+    howAreYou: function() {
+        return this.greeting;
+    }
+}
+x = myObject.howAreYou();
+document.getElementById("hello").innerHTML = x; 
+</script>
+
+</body>
+</html>
