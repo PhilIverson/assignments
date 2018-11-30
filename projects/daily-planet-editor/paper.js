@@ -11,12 +11,13 @@ just fix the existing ones.
 
 var enemies=["Lex", "Batman", "Darkseid", "Brainiac", "General Zod", "Doomsday"];
 
-function whoWins(isThereKryptonite, enemyName)  {
+function whoWins(isThereKryptonite, enemyName)  { //one space after ")" and before "{"
      if (!isThereKryptonite) {
         return "Superman beats " + enemyName + ", of course";    
-    }
+    } // the else should be on this line. 
         else {
         return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyName +" could possibly win this one.";
+        // spaces around operators, including "+"     
     }
 }
 for (var i = 0; i < enemies.length; i++) {
@@ -30,6 +31,7 @@ for (var i = 0; i < enemies.length; i++) {
 }
 function howAttractedIsLoisLaneToMe () {
     // 1 is not at all attracted, 10 is "super" attracted...
+    // spaces around oporators  
     return Math.floor((Math.random()*10)+1);
 }
 
