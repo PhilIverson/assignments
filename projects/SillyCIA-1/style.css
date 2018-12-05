@@ -1,7 +1,21 @@
 
-    h1 {
-        color: black;
-}
-    p {
-        font-weight: normal      
-} 
+  .errorMessage {
+    color: red;
+    border: 1px solid maroon;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .box {
+    color: blue;
+    background-color: aqua;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+  }
+
+
+  
+
+
+

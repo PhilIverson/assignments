@@ -1,0 +1,49 @@
+* {
+        box-sizing: border-box;
+        height: 600px;
+}
+
+    .blue {
+        background: blue;
+        width: 30%;
+        display: inline-block;
+    }
+
+    .white {
+        background: white;
+        width: 30%;
+        display: inline-block;
+    }
+
+    .red {
+        background: red;
+        width: 30%;
+        display: inline-block;
+    }
+
+    .black {
+        background: black;
+        width: 50px;
+        display: inline-block;
+    }
+
+    .red {
+        background: red;
+        width: 50px;
+        display: inline-block;
+    }
+
+    .yellow {
+        background: yellow;
+        width: 50px;
+        display: inline-block;
+    }
+
+    .dot {
+
+        height: 300px;
+        width: 50px;
+        background-color: red;
+    }
+
+

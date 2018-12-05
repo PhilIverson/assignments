@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box; 
+    height: 100;
+    margin: -2;
+    border: 6px solid white;
+}
+
+    .pink {
+        background: #F5C6D6;
+    }
+
+    .fuschia {
+        background: #EE2E84;
+        width: 25%;
+        display: inline-block;
+    }
+    
+    .blue {
+        background: #85CFD8;
+        width:50%;
+        display: inline-block;
+    }  
+    
+    .green {
+        width: 75%;
+        background: #8DC63F;
+        display: inline-block;
+    }
+    .oj {
+        background: #E76E34;
+        width: 25%;
+        display: inline-block;
+        
+ }
+
+  
