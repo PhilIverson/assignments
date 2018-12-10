@@ -1,0 +1,24 @@
+.box
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {}
+
+
+@media (orientation: landscape) {
+    .my-class {
+        color: red;
+    }
+}
+

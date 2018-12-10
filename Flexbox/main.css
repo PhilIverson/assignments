@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box; 
+    height: 100;
+    margin: -2;
+    border: 6px solid white;
+}
+
+.pink {
+    height: 100px;
+    width: 100%;
+    background-color: pink;
+}
+
+  .child {
+        display: inline-block;
+    }
+
+    .fuschia {
+        width: 25%;
+        background-color: fuchsia;
+    }
+
+    .blue {
+        width: 50%;
+        background-color: blue;
+    }
+
+    .green {
+        width: 75%;
+        background-color: green;
+    }
+
+    .orange {
+        width: 25%;
+        background-color: orange;
+    }
+@media (max-width: 300px) {
+.child {
+    width: 100%;
+}
+
+
+
+}

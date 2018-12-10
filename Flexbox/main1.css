@@ -1,0 +1,44 @@
+*{
+    font: 0;
+}
+
+
+
+.parent{
+    height: 100vh;
+    width:  100vw;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.pink {
+    height: 100px;
+    width: 80%;
+    border: 1px solid black;
+    background-color: pink;
+}
+
+.fuschia{
+    height: 100px;
+    width: 25%;
+    border: 1px solid black;
+    background-color: fuchsia;
+}
+
+@media (min-width: 768px){
+    .child{
+        display: inline-block;
+    }
+
+    .fuschia{
+        height: 100px;
+        width: 25%;
+        border: 1px solid black;
+        background-color: fuchsia;
+
+
+}
+}

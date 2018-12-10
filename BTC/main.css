@@ -1,0 +1,38 @@
+.box {
+    height: 80px;
+    width: 100%;
+    background: 
+    
+    
+    background-color: maroon;
+    height: 300px;
+    margin: auto;
+}
+
+@media(min-width: 600px){
+    .box {
+        width: 35%;
+        background-color: green;
+    }
+} 
+
+@media(max-width: 900px){
+    .box {
+        width: 50%;
+        background-color: blue;
+    }
+} 
+
+@media(min-width: 1200px){
+    .box {
+        width: 80%;
+        background-color: yellow;
+    }
+} 
+
+@media(min-width: )
+.image{
+    {
+        width:35%;
+        margin: 0;
+    }
