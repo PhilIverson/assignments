@@ -2,32 +2,29 @@ var a,b;
         function getValues() {
         a = Number(document.getElementById("a").value);
         b = Number(document.getElementById("b").value);
-        document.getElementById('result').innerHTML = html;
         }
         
-        function sum()
-        {
-            getValues();
+        function sum() {
+            getValues();"The Sum is equal to "
             result = a+b;
+            document.getElementById('result').innerHTML = result;
         }
 
-        function rest()
-        {
+        function rest() {
             getValues();
             result = a-b;
-            alert("The differfernce is equal to "+result);
+            document.getElementById('result').innerHTML = result;
         }
 
-        function multiply()
-        {
-            getValues();
+        function multiply() {
+            getValues(); "The procuct is equal to ";
             result = a*b;
-            alert("The procuct is equal to "+result);
+            document.getElementById('result').innerHTML = result;
         }
 
-        function divide()
-        {
-            getValues();
+        function divide() {
+            getValues(); "The quotient is equal to ";
             result = a/b;
-            alert("The quotient is equal to "+result);
+            document.getElementById('result').innerHTML = result;
+
         }
