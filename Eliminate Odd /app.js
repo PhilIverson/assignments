@@ -8,5 +8,7 @@ function noOdds(arr) {
             i--;
         } 
     }
-    return arr
+    return arr;
+
+    console.log(noOdds)
 

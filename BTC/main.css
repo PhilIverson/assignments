@@ -1,17 +1,15 @@
 .box {
-    height: 80px;
+    height: 700px;
     width: 100%;
-    background: 
-    
-    
+    background: red;
     background-color: maroon;
-    height: 300px;
     margin: auto;
 }
 
 @media(min-width: 600px){
     .box {
         width: 35%;
+        height: 600px;
         background-color: green;
     }
 } 
@@ -30,9 +28,4 @@
     }
 } 
 
-@media(min-width: )
-.image{
-    {
-        width:35%;
-        margin: 0;
-    }
+

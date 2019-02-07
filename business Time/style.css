@@ -1,0 +1,98 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+    grid-gap:10px;
+    }
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: black;
+    border-radius: 10px;
+}
+
+html, body {
+  background-color: lightgrey;
+  margin: 10px;
+}
+
+.container > div:nth-child(1n){
+    grid-column: 1/1;
+    background-color: red;	
+}
+  
+.container > div:nth-child(2n){
+    grid-column: 2 / 2;
+    background-color: blue;
+}
+
+
+
+
+  
+  
+
+/********* CSS Grid Number 1 **********
+
+.header {
+    grid-column: 1/6;
+    background-color: rgb(243, 12, 12);
+}
+
+.sidebar {
+    grid-column: 6/12;
+    background-color: blue;
+}
+
+.content {
+    grid-column: 1/3;
+    background-color: green;    
+}
+
+.sidebar2 {
+    grid-column: 3/12;
+    background-color: purple;    
+}
+
+.footer {
+    grid-column: 1/12;
+    background-color: yellow;     
+} */
+
+ /* .header {
+    grid-column: 1/5;
+    background-color: red;
+}
+
+.sidebar {
+    height: 210px;
+    grid-column: 1/3;
+    background-color: blue;
+}
+
+.content {
+    grid-column: 3/5;
+    background-color: green;    
+}
+
+.sidebar2 {
+    grid-column: 3/4;
+    background-color: purple;    
+}
+
+.footer {
+    grid-column: 4/5;
+    background-color: purple;    
+} */
+
+/*.footer {
+    grid-column: 1/12;
+    background-color: yellow;     
+}
+
+
+
+

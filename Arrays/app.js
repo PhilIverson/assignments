@@ -1,25 +1,28 @@
-var fruit = ["banana", "apple", "orange", "watermelon"];
-var vegetables = ["carrot", "tomato", "pepper", "lettuce"];
-var food = [];
-var poppedItem = vegetables.pop();
-var shiftItem = fruit.shift();
-var index = fruit.indexOf("orange");
-var notFoundItemIndex = fruit.indexOf("kiwi");
-fruit.push(index);
-vegetables.push(vegetables.length);
-food = food.concat(fruit, vegetables);
-var remove = food.splice(4, 2);
-food.reverse();
-var food = food.toString();
 
-/*console.log(poppedItem);
-console.log(shiftItem);
-console.log(index);
-console.log(notFoundItemIndex);
-console.log(fruit);
-console.log(vegetables.length);
-console.log(food);
-console.log(remove);
+/*
+var arr = [1,2,3,4];
+
+for ( var i = 0; i < arr.length; i++){
+   arr[i] += 1;
+}
+
+console.log(arr)
 */
 
-console.log(food);
+/* 
+var arr = [1,2,3,4];
+
+let newArr = arr.map(function(item){
+    return item + 1;
+})
+
+console.log(newArr)
+*/
+
+var num = [5, 2, 18, 24];
+var n = num.toString();
+
+console.log(n)
+
+
+
